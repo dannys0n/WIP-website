@@ -2594,6 +2594,13 @@ input, select, textarea {
 		position: relative;
 	}
 
+  /* if image inside, auto add padding */
+  p {
+    position: relative;
+    overflow: hidden;
+  }
+  /* if image inside, auto add padding */
+
 		.image img {
 			display: block;
 		}
@@ -2617,6 +2624,7 @@ input, select, textarea {
 			margin: 0 0 2rem 2rem;
 			top: 0.75rem;
 		}
+
 
 		.image.fit {
 			display: block;
