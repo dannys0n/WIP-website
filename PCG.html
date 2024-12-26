@@ -42,7 +42,7 @@
 						<!-- Post -->
 							<section class="post">
 								<header class="major">
-									<span class="date">December 2024
+									<span class="date">October 2024
                   </span>
 									<h1>Procedural Content Generation<br />
 									</h1>
@@ -67,13 +67,13 @@
 
             <!-- Image -->
             <h2>Level Generation</h2>
-            <p><span class="image left"><img src="images/pic01.jpg" alt="" /></span>Random Corridors</p>
-            <p><span class="image right"><img src="images/pic01.jpg" alt="" /></span>Preset Corridors</p>
-            <p><span class="image left"><img src="images/pic01.jpg" alt="" /></span>Rooms</p>
-            <p><span class="image right"><img src="images/pic01.jpg" alt="" /></span>Room Variations</p>
+            <p><span class="image left"><img src="images/pic01.jpg" alt="" /></span>Random corridors generate in lines of various sizes, creating a more consistent look. Occasionally, corridors create forks to additional corridors, and eventually create rooms (code snippit of random corridor generation)</p>
+            <p><span class="image right"><img src="images/pic01.jpg" alt="" /></span>Rooms get generated from edge of corridors as squares and require enough space to generate (code snippit of room generation)</p>
+            <p><span class="image left"><img src="images/pic01.jpg" alt="" /></span>For simplicity, room and corridor variations take existing rooms and remove tiles in specific patterns, sometimes combined with other variations to create combinations for more variation (code snippit of room variations)</p>
+            <p><span class="image right"><img src="images/pic01.jpg" alt="" /></span>Sometimes, corridors and rooms of certain size do not have enough space to spawn, to avoid "incomplete" looking rooms, a brute force approach of attempting different corridor/room sizes and orientations are attempted (code snippit brute forcing)</p>
             <h2>Enemy Spawn</h2>
-            <p><span class="image left"><img src="images/pic01.jpg" alt="" /></span>enemy spawns</p>
-            <p><span class="image right"><img src="images/pic01.jpg" alt="" /></span>Code snippit</p>
+            <p><span class="image left"><img src="images/pic01.jpg" alt="" /></span>Enemy spawns are based off of quadrants of the level. Amount and type of enemies are spawned based on quadrant and room size</p>
+            <p><span class="image right"><img src="images/pic01.jpg" alt="" /></span>Code snippit of enemy spawning</p>
             <hr />
 
 					</div>
