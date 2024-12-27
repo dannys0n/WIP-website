@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Template</title>
+		<title>Delta Time</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -26,7 +26,7 @@
 					<nav id="nav">
 						<ul class="links">
 							<li><a href="index.html">Home</a></li>
-							<li class="active"><a href="PCG.html">Template</a></li>
+							<li class="active"><a href="PCG.html">Delta Time</a></li>
 						</ul>
 						<ul class="icons">
 							<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
@@ -42,38 +42,45 @@
 						<!-- Post -->
 							<section class="post">
 								<header class="major">
-									<span class="date">December 2024
+									<span class="date">April 2024
                   </span>
-									<h1>Template<br />
+									<h1>Delta Time<br />
 									</h1>
-									<p>Template,<br />
-									  Template.</p>
+									<p>Audio, Collisions, & Serialization Programmer</p>
 								</header>
 								<div class="image main"><img src="images/pic01.jpg" alt="" /></div>
-								<p>Template</p>
+								<p>2.5D action-flight game from custom game engine, a school project made by team of 5</p>
 							</section>
 
               <!-- tools & resources used -->
               <div class="col-6 col-12-small">
 
-                <h3>tools & resources used</h3>
+                <h3>tools & resources used, credits too</h3>
                 <ul>
-                  <li>Template.</li>
-                  <li>Template.</li>
-                  <li>Template.</li>
+                  <li>Github Desktop.</li>
+                  <li>C++.</li>
+                  <li>Fmod Core.</li>
+                  <li>Json for modern C++.</li>
+                  <li><a href="https://www.jeffreythompson.org/collision-detection/table_of_contents.php" target="_blank">2D colliders.</a></li>
+                  <li><a href="https://www.youtube.com/watch?v=dn0hUgsok9M&ab_channel=Skeffles" target="_blank">Rotating colliders.</a></li>
+                  <li>Avery Steines, Arthur Grzegorz Wroblewski, Jalin Brown, Trev Gaglianello.</li>
                 </ul>
 
               </div>
 
             <!-- Image -->
-            <h2>Template</h2>
-            <p><span class="image left"><img src="images/pic01.jpg" alt="" /></span>Template</p>
-            <p><span class="image right"><img src="images/pic01.jpg" alt="" /></span>Template</p>
-            <p><span class="image left"><img src="images/pic01.jpg" alt="" /></span>Template</p>
-            <p><span class="image right"><img src="images/pic01.jpg" alt="" /></span>Template</p>
-            <h2>Template</h2>
-            <p><span class="image left"><img src="images/pic01.jpg" alt="" /></span>Template</p>
-            <p><span class="image right"><img src="images/pic01.jpg" alt="" /></span>Template</p>
+            <h2>Colliders</h2>
+            <p><span class="image left"><img src="images/pic01.jpg" alt="" /></span>For intuitive implementation, colliders are attached as components as 2D rectangles, circles, combinations and offsets for complex colliders</p>
+            <p><span class="image right"><img src="images/pic01.jpg" alt="" /></span>In order to rotate rectangular colliders, Separating Axis Theorem (SAT) is implemented</p>
+            <h2>Serialization</h2>
+            <p><span class="image left"><img src="images/pic01.jpg" alt="" /></span>Pair programmed with Arthur, a lot of data can be serialized into Json such as save data, scene specific objects and assets. It also comes with the benefit of reducing compile time from less code</p>
+            <p><span class="image right"><img src="images/pic01.jpg" alt="" /></span>Example of scene data in Json</p>
+            <h2>Audio Playback</h2>
+            <p><span class="image left"><img src="images/pic01.jpg" alt="" /></span>For simplicity, audio playback and music streaming are made into functions with multiple parameters, all stored from a singleton</p>
+            <p><span class="image right"><img src="images/pic01.jpg" alt="" /></span>Video of UI and Gameplay audio</p>
+            <h2>Audio Effects</h2>
+            <p><span class="image left"><img src="images/pic01.jpg" alt="" /></span>For ease of use, audio volume and effects can be controlled from the same singleton</p>
+            <p><span class="image right"><img src="images/pic01.jpg" alt="" /></span>Video of a low pass filter being applied on player taking damage</p>
             <hr />
 
 					</div>
