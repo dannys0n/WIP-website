@@ -73,6 +73,18 @@ input, select, textarea {
 	appearance: none;
 }
 
+/* video */
+.video-container {
+  max-width: 100%; /* Ensure the video does not overflow its container */
+  width: 100%; /* Make the video responsive */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.video-container video {
+  width: 100%; /* Make the video responsive */
+  height: auto; /* Maintain aspect ratio */
+}
+
 /* Basic */
 
 	@-ms-viewport {
